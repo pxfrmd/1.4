@@ -163,7 +163,7 @@ h1 {
 
 .left-menu-list__items:hover {
   position: relative;
-  color: #7E7E82;
+  opacity: 50%;
   transition-duration: 1s;
 }
 
@@ -178,6 +178,7 @@ h1 {
   top: -5px;
 }
 
+.lang-switcher:active,
 .lang-switcher:hover {
   color: #7E7E82;
 }
