@@ -7,18 +7,22 @@
 </head>
 
 <body>
-    <div class="left-menu">
+    <aside class="left-menu">
         <div class="inner-top">
     <header class="left-menu-header">
 
     <div class="left-menu-header-wrapper">
-        <button class='left-menu-button left-menu-button__cross'></button>
-        <img class="left-menu-logo" src="icons/logo.svg" alt="Логотип" >
-        <button class="left-menu-button left-menu-button__checkstatus"></button>
+        <div class="left-menu-header-wrapper-left">
+        <button class='header-button header-button-left-menu--cross'></button>
+        <img class="header-logo" src="icons/logo.svg" alt="Логотип" >
+        </div>
+        <div class="left-menu-header-wrapper-right">
+            <button class="header-button header-button-left-menu--checkstatus"></button>
+        </div>
     </div>
     </header>
 
-<div class="menu-items-wrapper">
+<nav class="menu-items-wrapper">
 
     <ul class="left-menu-list">
 
@@ -32,25 +36,25 @@
         <li class="left-menu-list__items"><a href="#" class="left-menu__items-link">Контакты</a></li>
 
     </ul>
-    </div>
+    </nav>
     </div>
     <div class ='inner-bottom'>
     <div class="left-menu-buttons-wrapper">
-    <button class="left-menu-button left-menu-button__call"></button>
-    <button class="left-menu-button left-menu-button__chat"></button>
-    <button class="left-menu-button left-menu-button__profile"></button>
+    <button class="header-button header-button-left-menu--call"></button>
+    <button class="header-button header-button-left-menu--chat"></button>
+    <button class="header-button header-button-left-menu--profile"></button>
     </div>
      <div class="contacts">
     <a href="mailto:mail@cps.com" class="left-menu__mail-to-link">mail@cps.com</a>
     <a href="tel:8 800 890 8900" class="left-menu__tel-link">8 800 890 8900</a>
      </div>
-    <div class='lang-switcher-wrapper'>
-    <button class="lang-switcher lang-switcher__ru"><span class="chosen-lang">RU</span></button>
-    <button class="lang-switcher lang-switcher__en"><span class="chosen-lang">EN</span></button>
-    <button class="lang-switcher lang-switcher__cn"><span class="chosen-lang">CN</span></button>
-    </div>
+    <ul class='lang-switcher-wrapper'>
+    <li class="lang-switcher lang-switcher__ru"><a class="chosen-lang" href="#">RU</a></li>
+    <li class="lang-switcher lang-switcher__en"><a class="chosen-lang"href="#">EN</a></li>
+    <li class="lang-switcher lang-switcher__cn"><a class="chosen-lang"href="#">CN</a></li>
+    </ul>
         </div>
-</div>
+</aside>
     </div>
 </body>
 </html>
